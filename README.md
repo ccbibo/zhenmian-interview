@@ -8,12 +8,6 @@
 
 [開啟產品](https://zhenmian-interview.vercel.app/)（目前保留私人部署登入保護；GitHub 原始碼公開不等於公開 API 使用權限。）
 
-## 原始碼下載
-
-[下載完整原始碼、測試與部署文件](zhenmian-interview-source.zip)。解壓縮後於專案根目錄執行下列指令。
-
-目前以原始碼 ZIP 提供；不是已展開的 Git 原始碼目錄。
-
 ## 使用流程
 
 1. 分別上傳 JD、履歷 PDF，或貼入文字。
@@ -27,11 +21,11 @@
 
 以下為自家網站的實測截圖，文件範例為虛構資料；沒有公開使用者真實履歷與對話。
 
-![面試室實際連線](04-own-site-live-interviewer.png)
+![面試室實際連線](evidence/screenshots/04-own-site-live-interviewer.png)
 
-![PDF 匯入成功](02-pdf-upload-success-live.png)
+![PDF 匯入成功](evidence/screenshots/02-pdf-upload-success-live.png)
 
-其餘素材與後續展示規劃見 原始碼包中的 docs/PORTFOLIO-ASSETS.md。目前有實測截圖，尚未製作展示影片。
+其餘素材與後續展示規劃見 [作品集素材](docs/PORTFOLIO-ASSETS.md)。目前有實測截圖，尚未製作展示影片。
 
 ## 技術與資料界線
 
@@ -60,13 +54,13 @@ npm --prefix hosted run validate
 npm --prefix hosted test
 ```
 
-部署方式見 原始碼包中的 deployment/vercel/README.md、docs/API_SETUP.md 與 docs/ARCHITECTURE.md。
+部署方式見 [Vercel 設定](deployment/vercel/README.md)、[API 設定](docs/API_SETUP.md)與 [架構](docs/ARCHITECTURE.md)。
 
 ## 已知範圍
 
 目前為單人短場版本：一輪一位動態人物，四個角色名稱代表提問設定，尚未各自映射不同人物；第二、三輪支援前輪資料續接。多人同時動態人物、長場、跨節點防重與持久資料儲存仍需擴充。
 
-使用者已確認本次對話流暢度；尚未宣稱量測達成特定 P50／P95、所有瀏覽器與實體攝像頭相容性，或完成十名獨立評審平均 95 分驗收。完整標準見 原始碼包中的 docs/ACCEPTANCE.md。
+使用者已確認本次對話流暢度；尚未宣稱量測達成特定 P50／P95、所有瀏覽器與實體攝像頭相容性，或完成十名獨立評審平均 95 分驗收。完整標準見 [驗收規範](docs/ACCEPTANCE.md)。
 
 ## 公開內容
 

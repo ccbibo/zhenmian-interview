@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+runtime/
+*.log
+*.zip
+.DS_Store
+hosted/dist/
+private/
+exports/
+recordings/
