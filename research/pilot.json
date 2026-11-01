@@ -1,0 +1,496 @@
+{
+  "collected_on": "2026-10-31",
+  "purpose": "真人感AI面試軟體JD試點；非完整市場調查；非真實企業面試題庫",
+  "target_formal_corpus": [
+    100,
+    200
+  ],
+  "counts": {
+    "readable_nonhistorical": 20,
+    "readable_historical": 2
+  },
+  "status_definition": "readable_nonhistorical表示本次官方原頁可讀，且未發現明確過期，不代表僱主已確認仍招募；摘要均為研究者轉述，不是完整JD複本。",
+  "jobs": [
+    {
+      "id": "JD001",
+      "company": "OpenNet",
+      "title": "Applied AI Engineer",
+      "location": "Taiwan",
+      "family": "AI Application/Agent",
+      "url": "https://job-boards.eu.greenhouse.io/opennet/jobs/5009602101",
+      "ref": "turn7view0",
+      "status": "readable_nonhistorical",
+      "min_years": 3,
+      "skills": [
+        "Python",
+        "API",
+        "LLM serving",
+        "evaluation",
+        "retrieval",
+        "vLLM/SGLang"
+      ],
+      "summary": "內部開源權重LLM服務、文件及客服應用、API整合與權限控制；以可重複評估比較品質、延遲、成本，協助coding agent導入。"
+    },
+    {
+      "id": "JD002",
+      "company": "AIFT",
+      "title": "AI Engineer, Virtual Insurance",
+      "location": "Taiwan",
+      "family": "AI Application/Agent",
+      "url": "https://job-boards.greenhouse.io/aift/jobs/6206118004",
+      "ref": "turn7view1",
+      "status": "readable_nonhistorical",
+      "min_years": 3,
+      "skills": [
+        "Python",
+        "RAG",
+        "embeddings",
+        "vector database",
+        "API",
+        "LLMOps"
+      ],
+      "summary": "開發生成式AI應用及服務，串接工作流程與後端；建立品質、可靠度、延遲及成本評估監控。"
+    },
+    {
+      "id": "JD003",
+      "company": "AIFT",
+      "title": "Machine Learning Engineer, Vulcan",
+      "location": "Taipei",
+      "family": "ML Engineering",
+      "url": "https://job-boards.greenhouse.io/aift/jobs/5652688004",
+      "ref": "turn7view2",
+      "status": "readable_nonhistorical",
+      "min_years": null,
+      "skills": [
+        "Python",
+        "PyTorch/TensorFlow",
+        "fine-tuning",
+        "tokenization",
+        "ML pipelines"
+      ],
+      "summary": "訓練分類及生成模型、微調與超參數優化；建置可重現訓練評估流程，部署及監控模型。"
+    },
+    {
+      "id": "JD004",
+      "company": "Appier",
+      "title": "Product Manager / Technical PM — Data Engineering",
+      "location": "Taipei",
+      "family": "AI Product/Technical PM",
+      "url": "https://job-boards.greenhouse.io/appier/jobs/8166843",
+      "ref": "turn7view4",
+      "status": "readable_nonhistorical",
+      "min_years": 2,
+      "skills": [
+        "PRD",
+        "API contracts",
+        "data quality",
+        "agentic workflow",
+        "English/Mandarin"
+      ],
+      "summary": "負責資料產品需求與交付，撰寫狀態、邊界及驗收規格；要求曾建置可運行agentic功能，並能理解程式、資料模型及API。"
+    },
+    {
+      "id": "JD005",
+      "company": "ASUS AICS",
+      "title": "AI Service Deployment Engineer",
+      "location": "Taipei",
+      "family": "AI Deployment/Platform",
+      "url": "https://aics.asus.com/career-en/ai-service-deployment-engineer/",
+      "ref": "turn7view6",
+      "status": "readable_nonhistorical",
+      "min_years": 3,
+      "skills": [
+        "Kubernetes",
+        "Docker",
+        "CI/CD",
+        "Python/Bash",
+        "Azure/GCP",
+        "monitoring"
+      ],
+      "summary": "在雲端與地端部署AI服務，建置部署管線、模型推論效能優化、監控及回復機制。"
+    },
+    {
+      "id": "JD006",
+      "company": "ASUS AICS",
+      "title": "AI Product Deployment & Integration Engineer",
+      "location": "Taipei (官方職缺總覽)",
+      "family": "AI Deployment/Integration",
+      "url": "https://aics.asus.com/ai-product-deployment-integration-engineer/",
+      "ref": "turn9view0",
+      "status": "readable_nonhistorical",
+      "min_years": null,
+      "skills": [
+        "customer integration",
+        "deployment",
+        "automation",
+        "agentic systems",
+        "cross-functional communication"
+      ],
+      "summary": "橋接醫院IT、臨床人員及內部研發，負責AI產品從開發到雲端或院內地端交付，建立自動化部署手冊。"
+    },
+    {
+      "id": "JD007",
+      "company": "ASUS AICS",
+      "title": "Machine Learning Engineer",
+      "location": "Taipei (官方職缺總覽)",
+      "family": "ML Engineering",
+      "url": "https://aics.asus.com/machine-learning-engineer/",
+      "ref": "turn9view1",
+      "status": "readable_nonhistorical",
+      "min_years": 3,
+      "skills": [
+        "Python/C++",
+        "NLP/CV",
+        "model training",
+        "benchmarking",
+        "production ML"
+      ],
+      "summary": "從問題定義、蒐集分析資料到模型訓練評估及部署，將研究原型轉成醫療產品。"
+    },
+    {
+      "id": "JD008",
+      "company": "ASUS AICS",
+      "title": "Senior AI Software Engineer (Agentic Engineering)",
+      "location": "Taipei (官方職缺總覽)",
+      "family": "AI Application/Agent",
+      "url": "https://aics.asus.com/senior-ai-software-engineer-agentic-engineering/",
+      "ref": "turn9view2",
+      "status": "readable_nonhistorical",
+      "min_years": null,
+      "skills": [
+        "multi-agent architecture",
+        "state management",
+        "knowledge extraction",
+        "LiteLLM",
+        "evaluation"
+      ],
+      "summary": "建置跨agent狀態與知識存取框架，將程式庫知識抽取、架構設計、程式生成與驗證串成軟體開發流程。"
+    },
+    {
+      "id": "JD009",
+      "company": "ASUS AICS",
+      "title": "Senior Medical Product Manager – AI Solutions",
+      "location": "Taipei (官方職缺總覽)",
+      "family": "AI Product/Technical PM",
+      "url": "https://aics.asus.com/career-en/senior-medical-product-manager-xhai/",
+      "ref": "turn9view3",
+      "status": "readable_nonhistorical",
+      "min_years": null,
+      "skills": [
+        "product strategy",
+        "roadmap",
+        "requirements",
+        "metrics",
+        "healthcare stakeholder management"
+      ],
+      "summary": "規劃醫療AI產品策略、路線與需求，把業務問題轉為開發計畫，與研究及工程團隊合作並衡量產品影響。"
+    },
+    {
+      "id": "JD010",
+      "company": "SWAG",
+      "title": "AI Engineer",
+      "location": "Taipei",
+      "family": "AI Application/Agent",
+      "url": "https://www.swag.careers/ai-engineer",
+      "ref": "turn5view1",
+      "status": "readable_nonhistorical",
+      "min_years": 5,
+      "skills": [
+        "Python",
+        "tool calling",
+        "multimodal",
+        "LLMOps",
+        "Docker/Kubernetes",
+        "RAG"
+      ],
+      "summary": "營運真實用戶使用的多步驟AI agent；串接內部資料、外部工具及視覺模型，負責版本、評估、部署與成本監控。"
+    },
+    {
+      "id": "JD011",
+      "company": "Appier",
+      "title": "(Senior) Machine Learning Scientist (Modeling & Evaluation)",
+      "location": "Taipei",
+      "family": "ML Research/Evaluation",
+      "url": "https://job-boards.greenhouse.io/appier/jobs/8261020",
+      "ref": "turn14view0",
+      "status": "readable_nonhistorical",
+      "min_years": 2,
+      "skills": [
+        "statistics",
+        "LLM evaluation",
+        "A/B testing",
+        "ML modeling",
+        "coding agents"
+      ],
+      "summary": "將產品與客戶目標轉為模型問題，建立LLM輸出評估、真實流量實驗，決定方法是否適合實際使用。"
+    },
+    {
+      "id": "JD012",
+      "company": "Appier",
+      "title": "(Senior) Machine Learning Scientist (LLM & Agents)",
+      "location": "Taipei",
+      "family": "AI Application/Agent",
+      "url": "https://job-boards.greenhouse.io/appier/jobs/6914984",
+      "ref": "turn14view1",
+      "status": "readable_nonhistorical",
+      "min_years": 2,
+      "skills": [
+        "Python",
+        "SQL",
+        "MCP",
+        "agent harness",
+        "evaluation",
+        "latency/cost optimization"
+      ],
+      "summary": "端到端交付企業agent及可重用skills與MCP工具，要求以測試集、LLM評審和production trace評估，並能說明評估限制。"
+    },
+    {
+      "id": "JD013",
+      "company": "Appier",
+      "title": "Data Scientist, Analytics",
+      "location": "Taipei",
+      "family": "Data Science/Experimentation",
+      "url": "https://job-boards.greenhouse.io/appier/jobs/1501726",
+      "ref": "turn14view2",
+      "status": "readable_nonhistorical",
+      "min_years": 3,
+      "skills": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "A/B testing",
+        "power analysis",
+        "causal inference"
+      ],
+      "summary": "分析廣告、競價及使用者資料，驗證假設、診斷指標矛盾並推動跨團隊改進；包含AI輔助分析及agent工作流程。"
+    },
+    {
+      "id": "JD014",
+      "company": "Appier",
+      "title": "AI Engineer, Playable Ads",
+      "location": "Taipei",
+      "family": "AI Application/Multimodal",
+      "url": "https://job-boards.greenhouse.io/appier/jobs/8102280",
+      "ref": "turn14view3",
+      "status": "readable_nonhistorical",
+      "min_years": 3,
+      "skills": [
+        "Python",
+        "PyTorch/TensorFlow",
+        "multimodal generation",
+        "APIs",
+        "Docker/Kubernetes",
+        "observability"
+      ],
+      "summary": "將生成式創意原型轉為可靠服務，設計非同步管線與API，處理schema驗證、重試、冪等及失敗回復並追蹤品質成本。"
+    },
+    {
+      "id": "JD015",
+      "company": "Appier",
+      "title": "Senior Machine Learning Scientist, Advertising Incrementality",
+      "location": "Taipei",
+      "family": "ML Research/Evaluation",
+      "url": "https://job-boards.greenhouse.io/appier/jobs/7364432",
+      "ref": "turn14view4",
+      "status": "readable_nonhistorical",
+      "min_years": 3,
+      "skills": [
+        "causal inference",
+        "incrementality",
+        "Python",
+        "SQL",
+        "PyTorch/TensorFlow"
+      ],
+      "summary": "以科學量測及線上實驗衡量廣告增量效果，理解不同因果推論方法假設並與工程產品協作。"
+    },
+    {
+      "id": "JD016",
+      "company": "Horizon AI",
+      "title": "AI Server & Algorithm Engineer",
+      "location": "Taipei, Nangang",
+      "family": "AI Deployment/Platform",
+      "url": "https://www.horizon-ai.ai/en/careers/ai-server-algorithm-engineer",
+      "ref": "turn16view0",
+      "status": "readable_nonhistorical",
+      "posted_date": "2026-09-12",
+      "min_years": 3,
+      "skills": [
+        "LLM inference",
+        "C++/Rust/CUDA/Python",
+        "scheduling",
+        "distributed systems",
+        "vLLM/SGLang"
+      ],
+      "summary": "優化多GPU/節點LLM推論排程、路由、批次及記憶體，使用TTFT、TPOT與尾延遲等量測平衡吞吐和成本。"
+    },
+    {
+      "id": "JD017",
+      "company": "Horizon AI",
+      "title": "AI Pre-sales Engineer",
+      "location": "Taipei, Nangang",
+      "family": "AI Solution/Pre-sales",
+      "url": "https://www.horizon-ai.ai/en/careers/atp-presales-engineer",
+      "ref": "turn16view1",
+      "status": "readable_nonhistorical",
+      "posted_date": "2026-09-07",
+      "min_years": 2,
+      "skills": [
+        "REST API",
+        "solution consulting",
+        "technical demos",
+        "ROI",
+        "stakeholder communication"
+      ],
+      "summary": "針對企業AI API治理、帳務與多供應商管理，訪談需求、示範產品、撰寫技術提案及ROI案例。"
+    },
+    {
+      "id": "JD018",
+      "company": "Appier",
+      "title": "Senior AI Security Engineer",
+      "location": "Taipei",
+      "family": "AI Security",
+      "url": "https://job-boards.greenhouse.io/appier/jobs/7949831",
+      "ref": "turn16view4",
+      "status": "readable_nonhistorical",
+      "min_years": 4,
+      "skills": [
+        "DevSecOps",
+        "SSDLC",
+        "threat modeling",
+        "prompt injection",
+        "AI data leakage",
+        "CI/CD"
+      ],
+      "summary": "將安全控制導入軟體生命週期與CI/CD，評估LLM應用、agent、提示注入、AI工具資料外洩與模型供應鏈風險。"
+    },
+    {
+      "id": "JD019",
+      "company": "Appier",
+      "title": "Technical Program Manager — AdCloud AI Bidding",
+      "location": "Taipei",
+      "family": "AI Product/Technical PM",
+      "url": "https://job-boards.greenhouse.io/appier/jobs/8213076",
+      "ref": "turn18view1",
+      "status": "readable_nonhistorical",
+      "min_years": 3,
+      "skills": [
+        "program management",
+        "SQL",
+        "Jira/Confluence",
+        "A/B rollouts",
+        "rollback planning"
+      ],
+      "summary": "協調科學家與工程團隊的演算法遷移及模型迭代，管理依賴與進度，建立實驗、發布及回滾SOP並用SQL驗證決策。"
+    },
+    {
+      "id": "JD020",
+      "company": "Appier",
+      "title": "Research Scientist (Generative & Agentic AI)",
+      "location": "Taipei",
+      "family": "ML Research/Evaluation",
+      "url": "https://job-boards.greenhouse.io/appier/jobs/8076142",
+      "ref": "turn19view0",
+      "status": "readable_nonhistorical",
+      "min_years": null,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "LLM/VLM",
+        "SFT/RLHF/RLVR",
+        "agent reasoning",
+        "benchmarks"
+      ],
+      "summary": "研究agent推理、規劃、工具、記憶與協作，以及基礎模型後訓練及效率，建立嚴格benchmark並推動產品應用。"
+    },
+    {
+      "id": "H001",
+      "company": "Spacelabz",
+      "title": "AI 工程師 (Python)",
+      "location": "Taipei",
+      "family": "ML Engineering",
+      "url": "https://spacelabz.ai/careers/ai-%E5%B7%A5%E7%A8%8B%E5%B8%AB-python/",
+      "ref": "turn16view2",
+      "status": "readable_historical",
+      "posted_date": "2023-05-08",
+      "min_years": null,
+      "skills": [
+        "Python",
+        "C++",
+        "linear algebra",
+        "PDE",
+        "agent-based simulation"
+      ],
+      "summary": "開發AI模擬引擎與神經模型。頁面日期為2023年，保留為歷史例子，不納入當前職缺分析。"
+    },
+    {
+      "id": "H002",
+      "company": "Spacelabz",
+      "title": "LLM AI工程師",
+      "location": "Taipei",
+      "family": "ML Engineering",
+      "url": "https://spacelabz.ai/careers/llm-ai%E5%B7%A5%E7%A8%8B%E5%B8%AB/",
+      "ref": "turn16view3",
+      "status": "readable_historical",
+      "posted_date": "2023-05-21",
+      "min_years": null,
+      "skills": [
+        "Python",
+        "TensorFlow/PyTorch",
+        "NLP",
+        "distributed computing"
+      ],
+      "summary": "大型語言模型訓練、資料處理及整合。頁面日期為2023年，保留為歷史例子，不納入當前職缺分析。"
+    }
+  ],
+  "exclusions": [
+    {
+      "company": "Google",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101850575875777222-ai-application-engineer",
+      "reason": "搜尋索引仍顯示JD，原頁回覆Job not found",
+      "ref": "turn9view7"
+    },
+    {
+      "company": "Google",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/91285584466584262-software-engineer-aiml-android",
+      "reason": "原頁Job not found",
+      "ref": "turn9view8"
+    },
+    {
+      "company": "MediaTek",
+      "url": "https://careers.mediatek.com/en/jobs/MTK120260414006",
+      "reason": "原頁redirect loop，僅索引內容，不納入完成筆數",
+      "ref": "turn9view6"
+    },
+    {
+      "company": "Trend Micro",
+      "url": "https://trendmicro.wd3.myworkdayjobs.com/en-US/External/job/XMLNAME--Sr--AI-Engineer---Agentic-AI_R0008931",
+      "reason": "Workday原頁無可讀內容",
+      "ref": "turn9view9"
+    },
+    {
+      "company": "ASUS AICS",
+      "url": "https://aics.asus.com/engineering-manager-ai-data-platforms-multi-agent-systems/",
+      "reason": "職缺總覽有連結，但詳細頁404",
+      "ref": "turn7view9"
+    },
+    {
+      "company": "LINE",
+      "url": "https://careers.linecorp.com/jobs/3032/",
+      "reason": "原頁403，索引顯示AI Products PM，待合法可用存取",
+      "ref": "turn7view3"
+    },
+    {
+      "company": "BJAK",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/c43ff51f-7f58-467a-b2b1-f2405b4a06ba",
+      "reason": "原頁需要JavaScript，未取得完整內容",
+      "ref": "turn7view5"
+    }
+  ],
+  "limitations": [
+    "試點20筆高度集中Appier及ASUS，不能當台灣市場頻率。",
+    "min_years未見明文即null，不能推斷0年或新鮮人可。",
+    "部分頁面只讀到角色與職責核心，資格未完整逐條擷取；正式語料需存原始頁快照及逐項證據。",
+    "官方頁可讀並不證明職缺目前仍接受申請，正式收錄需再核對官方總覽及申請狀態。",
+    "沒有實際面試題、面試官行為或錄取機率的證據。"
+  ]
+}
