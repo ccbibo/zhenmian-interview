@@ -1,6 +1,9 @@
+
 # 真面一下｜AI 模擬面試
 
 把下一場面試，好好聊一次。
+
+YouTube介紹連結：https://youtu.be/UALVc8NLfqI?si=ZFSVBAnkPx0dERv-
 
 上傳 JD 和履歷，選擇面試內容，與 AI 影像面試官對話；結束後回看逐字稿、取得有依據的 AI 建議，並寫下自己的筆記。
 
